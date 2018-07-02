@@ -1,0 +1,6 @@
+#mvn target folder
+target/*
+
+
+#intellij
+*.iml
