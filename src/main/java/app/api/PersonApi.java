@@ -21,5 +21,5 @@ public interface PersonApi {
             produces = { "application/json" },
             method = RequestMethod.GET)
     ResponseEntity<Person> getPerson(@RequestHeader(value = "sessionId") String sessionId,
-                                     @ApiParam(value = "ID of person to return", required = true) @PathVariable("personId") Long claimantId);
+                                     @ApiParam(value = "ID of person to return", required = true) @PathVariable("personId") Long personId);
 }
